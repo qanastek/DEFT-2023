@@ -91,6 +91,28 @@ The distribution of the subsets according to the number of answers are as follow
 | 5         | 34         | 2          | **43**    |
 | Total     | **2171**   | **312**    | **3,105** |
 
+
+
+## Bootstrapping training scripts
+
+### Architecture
+
+We are providing a basic bootstrapping script for training, which use [Transformers library](https://huggingface.co/docs/transformers/index) to train a `CamemBERT-base` model to predict the correct(s) answer(s) to the question by modeling it as a *multi-label* problem.
+
+P.-S.: It's not the training script of the reference, and had the only purpose to make easier to start with the tasks.
+
+How to use the training scripts (each file header contains the full procedure):
+- Change the path of the HuggingFace dataset to your local or remote location.
+   - My local path: `dataset_base  = load_dataset("/users/ylabrak/DEFT-2023/Data/Huggingface/DEFT-2023/DEFT2023.py")`
+   - Using HuggingFace Hub (required to send an invitation to [DEFT-2023 organization](https://huggingface.co/DEFT-2023) or your username to the workshop email): `dataset_base = load_dataset("DEFT-2023/DEFT2023", use_auth_token=True)`
+- Run the training script:
+   - `python TrainFrenchMedMCQA-CLASSIFICATION-Full.py --model_name="camembert-base"`
+   - `python TrainFrenchMedMCQA-QA.py --model_name="camembert-base"`
+
+## Evaluation scripts
+
+ddd
+
 ### Citation Information
 
 We would very much appreciate it if you cite our publications :
