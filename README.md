@@ -1,7 +1,7 @@
 <h1 align="center">DÉfi Fouille de Textes (DEFT) 2023 @ TALN 2023</h1>
 
 <p align="center">
-  <img width="400" src="./illustrations/Pipeline.png">
+  <img width="400" src="./logo.png">
 </p>
 
 <h3 align="center">DEFT 2023: French Pharmacy Exam Multiple-Choice Question Answering</h3>
