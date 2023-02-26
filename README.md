@@ -104,14 +104,16 @@ P.-S.: It's not the training script of the reference, and had the only purpose t
 How to use the training scripts (each file header contains the full procedure):
 - Change the path of the HuggingFace dataset to your local or remote location.
    - My local path: `dataset_base  = load_dataset("/users/ylabrak/DEFT-2023/Data/Huggingface/DEFT-2023/DEFT2023.py")`
-   - Using HuggingFace Hub (required to send an invitation to [DEFT-2023 organization](https://huggingface.co/DEFT-2023) or your username to the workshop email): `dataset_base = load_dataset("DEFT-2023/DEFT2023", use_auth_token=True)`
+   - Using HuggingFace Hub (required to send an invitation to [DEFT-2023 organization](https://huggingface.co/DEFT-2023) or your HuggingFace username to the workshop email): `dataset_base = load_dataset("DEFT-2023/DEFT2023", use_auth_token=True)`
 - Run the training script:
    - `python TrainFrenchMedMCQA-CLASSIFICATION-Full.py --model_name="camembert-base"`
    - `python TrainFrenchMedMCQA-QA.py --model_name="camembert-base"`
 
 ## Evaluation scripts
 
-ddd
+Run the evaluation script:
+- Classification: `python EvaluationClassification.py --references="./references_classification.txt" --predictions="./sample_classification.txt"`
+- MCQA: `python EvaluationQA.py --references="./references_qa.txt" --predictions="./sample_qa.txt"`
 
 ### Citation Information
 
