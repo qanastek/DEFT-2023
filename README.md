@@ -91,8 +91,6 @@ The distribution of the subsets according to the number of answers are as follow
 | 5         | 34         | 2          | **43**    |
 | Total     | **2171**   | **312**    | **3,105** |
 
-
-
 ## Bootstrapping training scripts
 
 ### Architecture
@@ -112,8 +110,8 @@ How to use the training scripts (each file header contains the full procedure):
 ## Evaluation scripts
 
 Run the evaluation script:
-- Classification: `python EvaluationClassification.py --references="./references_classification.txt" --predictions="./sample_classification.txt"`
-- MCQA: `python EvaluationQA.py --references="./references_qa.txt" --predictions="./sample_qa.txt"`
+- Classification: `python EvaluationClassification.py --references="./references_classification.txt" --predictions="./submission-fsd94g9gds49g94sd9gs9g.txt"`
+- MCQA: `python EvaluationQA.py --references="./references_qa.txt" --predictions="./submission-MCQA-fsd94g9gds49g94sd9gs9g.txt"`
 
 ### Citation Information
 
