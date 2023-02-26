@@ -115,14 +115,14 @@ Run the evaluation script:
 
 Where the `predictions` argument of the scripts is the submission file generated at the end of the training scripts and which follow the formats:
 
-Classification:
+*Classification*
 ```csv
 1187fa6bffd499eb4XXc90679d7fbca822d62bc639d1b9c94c68ae20e46f6004;5
 u787c8575bb93274XXa27b7b51f7ea797802157bf3b0e985f62b9164a2ec3287;2
 5me98b574405e91313XX337b65e76ce9c8bee4837790d7ad189f63fc40a70899;1
 ```
 
-MCQA:
+*MCQA*
 ```csv
 1187fa6bffd499eb4XXc90679d7fbca822d62bc639d1b9c94c68ae20e46f6004;A|B
 u787c8575bb93274XXa27b7b51f7ea797802157bf3b0e985f62b9164a2ec3287;A|B|C|D|E
