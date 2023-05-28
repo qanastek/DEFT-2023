@@ -134,15 +134,22 @@ u787c8575bb93274XXa27b7b51f7ea797802157bf3b0e985f62b9164a2ec3287;A|B|C|D|E
 We would very much appreciate it if you cite our publications :
 
 ```bibtex
-@unpublished{labrak:hal-03824241,
-  TITLE = {{FrenchMedMCQA: A French Multiple-Choice Question Answering Dataset for Medical domain}},
-  AUTHOR = {Labrak, Yanis and Bazoge, Adrien and Dufour, Richard and Daille, B{\'e}atrice and Gourraud, Pierre-Antoine and Morin, Emmanuel and Rouvier, Mickael},
-  URL = {https://hal.archives-ouvertes.fr/hal-03824241},
-  NOTE = {working paper or preprint},
-  YEAR = {2022},
-  MONTH = Oct,
-  PDF = {https://hal.archives-ouvertes.fr/hal-03824241/file/LOUHI_2022___QA-3.pdf},
-  HAL_ID = {hal-03824241},
-  HAL_VERSION = {v1},
+@inproceedings{labrak-etal-2022-frenchmedmcqa,
+    title = "{F}rench{M}ed{MCQA}: A {F}rench Multiple-Choice Question Answering Dataset for Medical domain",
+    author = "Labrak, Yanis  and
+      Bazoge, Adrien  and
+      Dufour, Richard  and
+      Daille, Beatrice  and
+      Gourraud, Pierre-Antoine  and
+      Morin, Emmanuel  and
+      Rouvier, Mickael",
+    booktitle = "Proceedings of the 13th International Workshop on Health Text Mining and Information Analysis (LOUHI)",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates (Hybrid)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.louhi-1.5",
+    pages = "41--46",
+    abstract = "This paper introduces FrenchMedMCQA, the first publicly available Multiple-Choice Question Answering (MCQA) dataset in French for medical domain. It is composed of 3,105 questions taken from real exams of the French medical specialization diploma in pharmacy, mixing single and multiple answers. Each instance of the dataset contains an identifier, a question, five possible answers and their manual correction(s). We also propose first baseline models to automatically process this MCQA task in order to report on the current performances and to highlight the difficulty of the task. A detailed analysis of the results showed that it is necessary to have representations adapted to the medical domain or to the MCQA task: in our case, English specialized models yielded better results than generic French ones, even though FrenchMedMCQA is in French. Corpus, models and tools are available online.",
 }
 ```
